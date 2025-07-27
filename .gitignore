@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+tournament_summary.json
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report/
+# Caching
+.nyc_output
+.temp/
+.cache/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+.webpack/
+.parcel-cache/
+
+# Dependencies
+node_modules/
+
+# Misc
+.DS_Store
+*.pem
+
+# Local env files
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# build outputs
+/dist
+/build
+/out
+/coverage
+
+# Editor directories and files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# System Files
+Thumbs.db

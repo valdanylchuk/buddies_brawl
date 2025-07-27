@@ -1,0 +1,23 @@
+{
+  "name": "Buddies Brawl",
+  "short_name": "Buddies Brawl",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "background_color": "#008080",
+  "theme_color": "#008080",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
