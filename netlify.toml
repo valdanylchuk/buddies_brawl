@@ -1,5 +1,6 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    # This is your new, more permissive Content Security Policy
-    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;"
+    # This is an extremely permissive policy. It allows scripts, styles,
+    # images, etc., from any source.
+    Content-Security-Policy = "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';"
